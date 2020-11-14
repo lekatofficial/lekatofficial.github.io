@@ -1,0 +1,102 @@
+/* nav bar */
+.nav-item,
+.nav-link {
+    color: whitesmoke !important;
+}
+
+.navbar-brand {
+    font-family: Akronim;
+    font-size: 32px;
+
+}
+
+.nav-link btn {
+    color: white;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: -4px;
+}
+
+
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid blue;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+/* utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+
+}
+
+/* footer */
+.footer {
+    margin-top: 100px;
+}
+
+.pagination {
+    margin-top: 80px;
+}
+
+
+/* body */
+body {
+    background-image: url(../img/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 900px
+}
+
+
+header {
+    margin: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: colum;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+
+header div {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin: .5vw;
+}
+
+header div img {
+    width: 100%;
+    height: auto;
+
+}
+
+@media screen and (max-width: 400px) {
+
+    header div {
+        margin: 0;
+    }
+
+    header {
+        padding: 0;
+    }
+}
+
+/* dekstop */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+}

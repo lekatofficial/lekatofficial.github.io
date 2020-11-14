@@ -1,0 +1,96 @@
+/* nav bar */
+.nav-item,
+.nav-link {
+  color: whitesmoke !important;
+}
+
+.navbar-brand {
+  font-family: Akronim;
+  font-size: 32px;
+
+}
+
+.nav-link btn {
+  color: white;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: -4px;
+}
+
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid blue;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+/* footer */
+
+.footer p {
+  color: #0b0b0b;
+  font-size: 18px;
+}
+
+/* footer */
+.footer {
+  margin-top: 100px;
+}
+
+
+
+/* utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+
+}
+
+.workingspace img {
+  width: 300px;
+  margin: 30px 40px -15px;
+}
+
+.workingspace {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.workingspace h3 {
+  font-size: 45px;
+  font-weight: 80;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+
+/* body */
+body {
+  background-image: url(../img/bg1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 900px
+}
+
+/* dekstop */
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .workingspace img {
+    width: 300px;
+    margin: 50px 300px -15px;
+
+  }
+
+  .workingspace {
+    text-align: left;
+  }
+}
